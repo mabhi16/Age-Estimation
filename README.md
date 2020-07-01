@@ -1,10 +1,10 @@
 Aim of this project is compare the performance of various exsisting neural networks in estimating the age based on the facial features. The dataset for this project was downloaded from opensource Kaggle dataset: https://www.kaggle.com/frabbisw/facial-age. 
 
 Neural Networks under consideration:
-MobileNetV2
-VGG16
-Resnet-50
-Inception
+MobileNetV2,
+VGG16,
+Resnet-50,
+Inception,
 
 The data provided by kaggle had ages ranging from 1 to 110 as individual classes, for the convinence i have grouped them into 9 classes: 1 to 10, 11 to 20, 21 to 30, 31 to 40, 41 to 50, 51 to 60, 61 to 70, 71 to 80, 81 to 100.
 
