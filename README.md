@@ -12,4 +12,6 @@ As of now the i have visualized the data distributon among different classes on 
 
 Data Loader base code has been taken from : https://github.com/LokLu/Tensorflow-data-loader, since this data loader was written in Python 2 and it was designed for Image segmentation, i have customized few parts of the code and added a function for integer encoding of labels.
 
+As it can be seen from the accuracy measure graph that the model is overfitting, i am currently working on hyper-parameter tuning to solve the overfitting problem.
+
 
