@@ -14,7 +14,7 @@ Data Loader base code has been taken from : https://github.com/LokLu/Tensorflow-
 
 As it can be seen from the accuracy measure graph that the model is overfitting, i am currently working on hyper-parameter tuning to solve the overfitting problem.
 
-Update On 23/07/2020
+Update On 23/07/2020 : 
 After the hyper-parameter tuning i found out the major problem would be the problem in the classification is the similar features being present in the data of different classes. For example the face features of person at 50 and 51 are very similar, but in our problem the person in 50 and person in 51 both fall into two different classes. so i had reduced the problem into a binary classification to examine if the validation accuracy increases, the validation accuracy increased rapidly from 25% to 88%. So i will try to break this classes further into small chuncks like 4 class problem and further or take a regression approach to predict a definite age instead of a window like 1 to 10.
 
 
